@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9894AD1ECF075300C045AA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9894AC1ECF075300C045AA /* StartViewController.swift */; };
 		8EFFC9281ECD79FD00584ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9271ECD79FD00584ECA /* AppDelegate.swift */; };
 		8EFFC92A1ECD79FD00584ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9291ECD79FD00584ECA /* ViewController.swift */; };
 		8EFFC92D1ECD79FD00584ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFC92B1ECD79FD00584ECA /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		8EFFC9321ECD79FD00584ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFC9301ECD79FD00584ECA /* LaunchScreen.storyboard */; };
 		8EFFC93D1ECD79FD00584ECA /* EcosystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC93C1ECD79FD00584ECA /* EcosystemTests.swift */; };
 		8EFFC9481ECD79FD00584ECA /* EcosystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9471ECD79FD00584ECA /* EcosystemUITests.swift */; };
+		8EFFC9561ECDA01800584ECA /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9551ECDA01800584ECA /* PracticeViewController.swift */; };
+		8EFFC9581ECDA06A00584ECA /* StandardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9571ECDA06A00584ECA /* StandardsViewController.swift */; };
+		8EFFC95A1ECDA86300584ECA /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9591ECDA86300584ECA /* QuestionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E9894AC1ECF075300C045AA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		8EFFC9241ECD79FD00584ECA /* Ecosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecosystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFFC9271ECD79FD00584ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFFC9291ECD79FD00584ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		8EFFC9431ECD79FD00584ECA /* EcosystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcosystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFFC9471ECD79FD00584ECA /* EcosystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcosystemUITests.swift; sourceTree = "<group>"; };
 		8EFFC9491ECD79FD00584ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFFC9551ECDA01800584ECA /* PracticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
+		8EFFC9571ECDA06A00584ECA /* StandardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StandardsViewController.swift; path = Assets.xcassets/StandardsViewController.swift; sourceTree = "<group>"; };
+		8EFFC9591ECDA86300584ECA /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				8EFFC9271ECD79FD00584ECA /* AppDelegate.swift */,
 				8EFFC9291ECD79FD00584ECA /* ViewController.swift */,
+				8EFFC9551ECDA01800584ECA /* PracticeViewController.swift */,
+				8EFFC9571ECDA06A00584ECA /* StandardsViewController.swift */,
+				8EFFC9591ECDA86300584ECA /* QuestionsViewController.swift */,
+				8E9894AC1ECF075300C045AA /* StartViewController.swift */,
 				8EFFC92B1ECD79FD00584ECA /* Main.storyboard */,
 				8EFFC92E1ECD79FD00584ECA /* Assets.xcassets */,
 				8EFFC9301ECD79FD00584ECA /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EFFC9561ECDA01800584ECA /* PracticeViewController.swift in Sources */,
+				8EFFC95A1ECDA86300584ECA /* QuestionsViewController.swift in Sources */,
 				8EFFC92A1ECD79FD00584ECA /* ViewController.swift in Sources */,
 				8EFFC9281ECD79FD00584ECA /* AppDelegate.swift in Sources */,
+				8EFFC9581ECDA06A00584ECA /* StandardsViewController.swift in Sources */,
+				8E9894AD1ECF075300C045AA /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				8EFFC94E1ECD79FD00584ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EFFC94F1ECD79FD00584ECA /* Build configuration list for PBXNativeTarget "EcosystemTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				8EFFC9511ECD79FD00584ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EFFC9521ECD79FD00584ECA /* Build configuration list for PBXNativeTarget "EcosystemUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				8EFFC9541ECD79FD00584ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
