@@ -95,8 +95,8 @@ class QuestionsViewController: UIViewController {
             QuestionLabel.text = "All Done!"
             
             button1.setTitle("Score:", for: [])
-            button2.setTitle(String(score), for: [])
-            button3.setTitle("of 6", for: [])
+            button2.setTitle("", for: [])
+            button3.setTitle("\(score) of 6", for: [])
         }
         
         button1.layer.borderWidth = 0

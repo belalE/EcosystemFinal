@@ -198,19 +198,10 @@
                                     <action selector="nextquestion:" destination="S5u-EY-UXO" eventType="touchUpInside" id="XkR-yb-iDg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uov-BB-30B">
-                                <rect key="frame" x="75" y="64" width="226" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="TZn-gn-rEf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAU-hY-pE5">
                                 <rect key="frame" x="16" y="237" width="343" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="Ans1:" destination="S5u-EY-UXO" eventType="touchUpInside" id="8HC-be-vSe"/>
@@ -219,7 +210,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dM-VO-AZx">
                                 <rect key="frame" x="16" y="379" width="354" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="ans2:" destination="S5u-EY-UXO" eventType="touchUpInside" id="pLd-Cp-6rS"/>
@@ -228,18 +219,27 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuk-JH-eIQ">
                                 <rect key="frame" x="16" y="533" width="354" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="ans3:" destination="S5u-EY-UXO" eventType="touchUpInside" id="R2m-J2-cXI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uov-BB-30B">
+                                <rect key="frame" x="6" y="64" width="364" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="TZn-gn-rEf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uov-BB-30B" firstAttribute="top" secondItem="lZL-Mq-QIe" secondAttribute="bottom" id="F2W-cW-1PT"/>
                             <constraint firstItem="uov-BB-30B" firstAttribute="centerX" secondItem="vO0-05-bP4" secondAttribute="centerX" id="GjT-an-7yW"/>
-                            <constraint firstItem="uov-BB-30B" firstAttribute="leading" secondItem="vO0-05-bP4" secondAttribute="leadingMargin" constant="59" id="KxR-3m-nyg"/>
+                            <constraint firstItem="uov-BB-30B" firstAttribute="leading" secondItem="vO0-05-bP4" secondAttribute="leadingMargin" constant="-10" id="KxR-3m-nyg"/>
                         </constraints>
                     </view>
                     <connections>
