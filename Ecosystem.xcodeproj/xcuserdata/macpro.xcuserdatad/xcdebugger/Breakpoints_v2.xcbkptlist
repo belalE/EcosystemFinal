@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "ans2(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,89 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516962367.327557"
+            timestampString = "516970508.915835"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "QuestionsViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Ecosystem.QuestionsViewController.button2.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
-                  moduleName = "Ecosystem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.085239"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "27">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Ecosystem.QuestionsViewController.button2.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
-                  moduleName = "Ecosystem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.089529"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "42">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Ecosystem.QuestionsViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Ecosystem.QuestionsViewController"
-                  moduleName = "Ecosystem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.092548"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "189">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Ecosystem.QuestionsViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Ecosystem.QuestionsViewController&gt;"
-                  moduleName = "Ecosystem"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.098153"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "118">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516962367.327557"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "QuestionsViewController"
             landmarkType = "3">
             <Locations>
@@ -120,11 +42,11 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.112797"
+                  timestampString = "516972345.985357"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "19">
                </Location>
                <Location
@@ -135,11 +57,11 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.116724"
+                  timestampString = "516972345.987915"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
                   offsetFromSymbolStart = "23">
                </Location>
                <Location
@@ -150,12 +72,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.12072"
+                  timestampString = "516972345.991259"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "73">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "287">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -165,12 +87,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "516965122.125583"
+                  timestampString = "516972345.993919"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "34">
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "195">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -182,11 +104,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -198,11 +120,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "nextquestion(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -214,11 +136,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -230,11 +152,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -246,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "ans2(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -262,7 +184,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Ecosystem/QuestionsViewController.swift"
-            timestampString = "516963873.286632"
+            timestampString = "516972344.894668"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Ecosystem/QuestionsViewController.swift"
+            timestampString = "516972344.894668"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
