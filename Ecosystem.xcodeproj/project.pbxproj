@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E9894AD1ECF075300C045AA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9894AC1ECF075300C045AA /* StartViewController.swift */; };
+		8ED7C0621ED03B790066DCE9 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED7C0611ED03B790066DCE9 /* ScoreViewController.swift */; };
 		8EFFC9281ECD79FD00584ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9271ECD79FD00584ECA /* AppDelegate.swift */; };
 		8EFFC92A1ECD79FD00584ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFFC9291ECD79FD00584ECA /* ViewController.swift */; };
 		8EFFC92D1ECD79FD00584ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFFC92B1ECD79FD00584ECA /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		8E9894AC1ECF075300C045AA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		8ED7C0611ED03B790066DCE9 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		8EFFC9241ECD79FD00584ECA /* Ecosystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecosystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFFC9271ECD79FD00584ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFFC9291ECD79FD00584ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				8EFFC9551ECDA01800584ECA /* PracticeViewController.swift */,
 				8EFFC9571ECDA06A00584ECA /* StandardsViewController.swift */,
 				8EFFC9591ECDA86300584ECA /* QuestionsViewController.swift */,
+				8ED7C0611ED03B790066DCE9 /* ScoreViewController.swift */,
 				8E9894AC1ECF075300C045AA /* StartViewController.swift */,
 				8EFFC92B1ECD79FD00584ECA /* Main.storyboard */,
 				8EFFC92E1ECD79FD00584ECA /* Assets.xcassets */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED7C0621ED03B790066DCE9 /* ScoreViewController.swift in Sources */,
 				8EFFC9561ECDA01800584ECA /* PracticeViewController.swift in Sources */,
 				8EFFC95A1ECDA86300584ECA /* QuestionsViewController.swift in Sources */,
 				8EFFC92A1ECD79FD00584ECA /* ViewController.swift in Sources */,

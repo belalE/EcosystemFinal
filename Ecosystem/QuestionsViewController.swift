@@ -29,15 +29,34 @@ class QuestionsViewController: UIViewController {
             if QuestionLabel.text == "What is the order of the flow of energy in an energy pyramid from bottom to top?" {
                 score = score + 1
             }
+            if button3.layer.borderWidth == 5 {
+                if QuestionLabel.text == "Which would be considered an adaptation?" {
+                    score = score + 1
+                }
+                if QuestionLabel.text == "Why is biodiversity important?" {
+                    score = score + 1
+                }
+                if QuestionLabel.text == "What is a carrying capacity?" {
+                    score = score + 1
+                }
+            }
             
         }
+        if button1.layer.borderWidth == 5 {
+            if QuestionLabel.text == "What are the main types of symbiosis?" {
+                score = score + 1
+            }
+            if QuestionLabel.text == "What would happen if the population of the tertiary consumer  went down?" {
+                score = score + 1
+            }
+        }
         if clicks == 1 {
-        
-        QuestionLabel.text = "Which would be considered an adaptation?"
-        
-        button1.titleLabel?.text = "Mosquitos drinking blood"
-        button2.titleLabel?.text = "Birds eating tics on rhinos"
-        button3.titleLabel?.text = "Sharks being able to smell blood underwater"
+            
+            QuestionLabel.text = "Which would be considered an adaptation?"
+            
+            button1.titleLabel?.text = "Mosquitos drinking blood"
+            button2.titleLabel?.text = "Birds eating tics on rhinos"
+            button3.titleLabel?.text = "Sharks being able to smell blood underwater"
             
         }
         if clicks == 2 {
@@ -68,58 +87,70 @@ class QuestionsViewController: UIViewController {
             button2.titleLabel?.text = "The amount of organisms in the ecosystem"
             button3.titleLabel?.text = "The amount of organisms the ecosystem can support"
         }
+        if clicks == 6 {
+            performSegue(withIdentifier: "ScoreSegue", sender: score)
+        }
+        
+        button1.layer.borderWidth = 0
+        button2.layer.borderWidth = 0
+        button3.layer.borderWidth = 0
     }
     
     @IBAction func Ans1(_ sender: Any) {
-      
-            
-            button1.layer.borderWidth  = 5
-            
+        
+        
+        button1.layer.borderWidth  = 5
+        
         
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let SVC = segue.destination as! ScoreViewController
+        SVC.displayScore = sender! as! String
+        
+    }
     
     
     @IBAction func ans2(_ sender: Any) {
         
-            button2.layer.borderWidth  = 5
+        button2.layer.borderWidth  = 5
         
-               }
-        
+    }
+    
     @IBAction func ans3(_ sender: Any) {
         
-            button3.layer.borderWidth = 5
+        button3.layer.borderWidth = 5
         
     }
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            
-            // Do any additional setup after loading the view.
-            QuestionLabel.text = "What is the order of the flow of energy in an energy pyramid from bottom to top?"
-            
-            button1.titleLabel?.text = "Primary Consumer,Tertiary Consumer,Secondary Consumer,Producer,Decomposer"
-            
-            button2.titleLabel?.text =  "Producer,Primary Consumer,Secondary Consumer,Tertiary Consumer,Decomposer."
-            
-            button3.titleLabel?.text  = "Producer,Secondary Consumer,Tertiary Consumer, Decomposer"
-            
-        }
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
-        override func didReceiveMemoryWarning() {
-            super.didReceiveMemoryWarning()
-            // Dispose of any resources that can be recreated.
-        }
+        // Do any additional setup after loading the view.
+        QuestionLabel.text = "What is the order of the flow of energy in an energy pyramid from bottom to top?"
         
+        button1.titleLabel?.text = "Primary Consumer,Tertiary Consumer,Secondary Consumer,Producer,Decomposer"
         
-        /*
-         // MARK: - Navigation
-         
-         // In a storyboard-based application, you will often want to do a little preparation before navigation
-         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-         // Get the new view controller using segue.destinationViewController.
-         // Pass the selected object to the new view controller.
-         }
-         */
+        button2.titleLabel?.text =  "Producer,Primary Consumer,Secondary Consumer,Tertiary Consumer,Decomposer."
+        
+        button3.titleLabel?.text  = "Producer,Secondary Consumer,Tertiary Consumer, Decomposer"
+        
     }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+}
 

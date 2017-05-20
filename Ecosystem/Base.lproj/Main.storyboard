@@ -277,11 +277,70 @@
                         <outlet property="button1" destination="cAU-hY-pE5" id="7Av-NB-u7k"/>
                         <outlet property="button2" destination="9dM-VO-AZx" id="gWx-Fc-KMJ"/>
                         <outlet property="button3" destination="uuk-JH-eIQ" id="ui8-VF-0Ur"/>
+                        <segue destination="MzC-Tx-m82" kind="presentation" identifier="ScoreSegue" id="FkP-19-mht"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VU6-VV-q6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1736.8" y="-316.19190404797604"/>
+        </scene>
+        <!--Score View Controller-->
+        <scene sceneID="1z5-Su-G2u">
+            <objects>
+                <viewController id="MzC-Tx-m82" customClass="ScoreViewController" customModule="Ecosystem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lhk-6H-AOu"/>
+                        <viewControllerLayoutGuide type="bottom" id="CSb-Vf-txr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Qs-sz-ZFV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iby-CT-gBo">
+                                <rect key="frame" x="163.5" y="141" width="49.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsO-G0-OTD">
+                                <rect key="frame" x="167" y="323.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DR8-0N-cDv">
+                                <rect key="frame" x="230" y="323" width="50" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3nN-wc-cEY">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/ 6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j55-UC-kN0">
+                                <rect key="frame" x="216" y="323.5" width="20.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="j55-UC-kN0" firstAttribute="centerY" secondItem="3Qs-sz-ZFV" secondAttribute="centerY" id="1jq-07-sF1"/>
+                            <constraint firstItem="KsO-G0-OTD" firstAttribute="centerX" secondItem="3Qs-sz-ZFV" secondAttribute="centerX" id="Qdq-hS-YGr"/>
+                            <constraint firstItem="Iby-CT-gBo" firstAttribute="top" secondItem="Lhk-6H-AOu" secondAttribute="bottom" constant="121" id="WW0-Eb-brd"/>
+                            <constraint firstItem="j55-UC-kN0" firstAttribute="top" secondItem="DR8-0N-cDv" secondAttribute="top" id="ctU-lc-Sbg"/>
+                            <constraint firstItem="j55-UC-kN0" firstAttribute="leading" secondItem="KsO-G0-OTD" secondAttribute="trailing" constant="7.5" id="p84-5s-cKE"/>
+                            <constraint firstItem="Iby-CT-gBo" firstAttribute="centerX" secondItem="3Qs-sz-ZFV" secondAttribute="centerX" id="sX7-tL-1fZ"/>
+                            <constraint firstItem="KsO-G0-OTD" firstAttribute="centerY" secondItem="3Qs-sz-ZFV" secondAttribute="centerY" id="ws9-nc-JUI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="KsO-G0-OTD" id="7Ta-Bq-qzk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kf1-WS-dD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2488.8000000000002" y="-316.19190404797604"/>
         </scene>
     </scenes>
 </document>
