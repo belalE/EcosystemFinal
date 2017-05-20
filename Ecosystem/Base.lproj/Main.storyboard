@@ -203,13 +203,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="TZn-gn-rEf"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="6"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAU-hY-pE5">
                                 <rect key="frame" x="16" y="237" width="343" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="Ans1:" destination="S5u-EY-UXO" eventType="touchUpInside" id="8HC-be-vSe"/>
@@ -218,6 +219,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dM-VO-AZx">
                                 <rect key="frame" x="16" y="379" width="354" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="ans2:" destination="S5u-EY-UXO" eventType="touchUpInside" id="pLd-Cp-6rS"/>
@@ -226,6 +228,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuk-JH-eIQ">
                                 <rect key="frame" x="16" y="533" width="354" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="4"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="ans3:" destination="S5u-EY-UXO" eventType="touchUpInside" id="R2m-J2-cXI"/>
