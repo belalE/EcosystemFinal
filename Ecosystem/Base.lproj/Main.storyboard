@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OlN-8i-VtV">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -51,13 +51,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="whH-rM-Qyj"/>
                     <connections>
-                        <segue destination="Dq8-IJ-TTH" kind="presentation" identifier="PracticeSegue" id="6bo-P8-naE"/>
-                        <segue destination="YLW-5l-qc1" kind="presentation" identifier="QuizSegue" id="5Fz-AW-OWf"/>
+                        <segue destination="Dq8-IJ-TTH" kind="show" identifier="PracticeSegue" id="6bo-P8-naE"/>
+                        <segue destination="YLW-5l-qc1" kind="show" identifier="QuizSegue" id="5Fz-AW-OWf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="972" y="57.121439280359823"/>
         </scene>
         <!--Standards View Controller-->
         <scene sceneID="wkg-H8-FQR">
@@ -131,12 +133,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <segue destination="IT5-oG-Qxl" kind="presentation" identifier="TextSegue" id="p4o-Vq-2Dh"/>
+                        <segue destination="IT5-oG-Qxl" kind="show" identifier="TextSegue" id="p4o-Vq-2Dh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aop-MF-N4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1051" y="432"/>
+            <point key="canvasLocation" x="1989.5999999999999" y="431.33433283358323"/>
         </scene>
         <!--Practice View Controller-->
         <scene sceneID="J17-hz-nIa">
@@ -174,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i76-qr-Xck" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1722.4000000000001" y="431.33433283358323"/>
+            <point key="canvasLocation" x="2661.5999999999999" y="431.33433283358323"/>
         </scene>
         <!--Start View Controller-->
         <scene sceneID="i3A-WP-MIu">
@@ -207,12 +209,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="S5u-EY-UXO" kind="presentation" identifier="TestSegue" id="RJq-Jd-abA"/>
+                        <segue destination="S5u-EY-UXO" kind="show" identifier="TestSegue" id="RJq-Jd-abA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jya-HM-02C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1036" y="-317.09145427286359"/>
+            <point key="canvasLocation" x="1975.2" y="-317.09145427286359"/>
         </scene>
         <!--Questions View Controller-->
         <scene sceneID="lw3-la-Nsq">
@@ -277,12 +279,12 @@
                         <outlet property="button1" destination="cAU-hY-pE5" id="7Av-NB-u7k"/>
                         <outlet property="button2" destination="9dM-VO-AZx" id="gWx-Fc-KMJ"/>
                         <outlet property="button3" destination="uuk-JH-eIQ" id="ui8-VF-0Ur"/>
-                        <segue destination="MzC-Tx-m82" kind="presentation" identifier="ScoreSegue" id="FkP-19-mht"/>
+                        <segue destination="MzC-Tx-m82" kind="show" identifier="ScoreSegue" id="FkP-19-mht"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VU6-VV-q6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1736.8" y="-316.19190404797604"/>
+            <point key="canvasLocation" x="2676" y="-316.19190404797604"/>
         </scene>
         <!--Score View Controller-->
         <scene sceneID="1z5-Su-G2u">
@@ -340,7 +342,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kf1-WS-dD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2488.8000000000002" y="-316.19190404797604"/>
+            <point key="canvasLocation" x="3428" y="-316.19190404797604"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Giv-D0-nxW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OlN-8i-VtV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BBm-0g-jRw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="whq-jc-KMG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zEC-iW-7h5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="308" y="-625.63718140929541"/>
         </scene>
     </scenes>
 </document>
