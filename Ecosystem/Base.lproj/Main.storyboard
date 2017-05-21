@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.15741595638144107" green="0.79106622409326421" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="whH-rM-Qyj"/>
                     <connections>
@@ -73,22 +73,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGI-j6-3Ov">
-                                <rect key="frame" x="137" y="28" width="102" height="30"/>
-                                <state key="normal" title="Flow of Energy"/>
-                                <connections>
-                                    <action selector="flowofenergy:" destination="Dq8-IJ-TTH" eventType="touchUpInside" id="pYo-4P-CfS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSs-55-GI7">
-                                <rect key="frame" x="150" y="120" width="75" height="30"/>
+                                <rect key="frame" x="150" y="181" width="75" height="30"/>
                                 <state key="normal" title="Adaptation"/>
                                 <connections>
                                     <action selector="adaptation:" destination="Dq8-IJ-TTH" eventType="touchUpInside" id="V2s-mA-T8v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zUf-Ah-DRA">
-                                <rect key="frame" x="111" y="222" width="153" height="30"/>
+                                <rect key="frame" x="112" y="289" width="153" height="30"/>
                                 <state key="normal" title="Patterns of Interaction"/>
                                 <connections>
                                     <action selector="patternsofinteraction:" destination="Dq8-IJ-TTH" eventType="touchUpInside" id="HFI-Vf-XbC"/>
@@ -115,16 +108,23 @@
                                     <action selector="resourceavailibility:" destination="Dq8-IJ-TTH" eventType="touchUpInside" id="EvX-u9-yKm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGI-j6-3Ov">
+                                <rect key="frame" x="137" y="90" width="102" height="30"/>
+                                <state key="normal" title="Flow of Energy"/>
+                                <connections>
+                                    <action selector="flowofenergy:" destination="Dq8-IJ-TTH" eventType="touchUpInside" id="pYo-4P-CfS"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1574159564" green="0.79106622410000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0Ke-Lq-pZ2" firstAttribute="top" secondItem="zUf-Ah-DRA" secondAttribute="bottom" constant="124" id="66J-or-hMc"/>
+                            <constraint firstItem="0Ke-Lq-pZ2" firstAttribute="top" secondItem="zUf-Ah-DRA" secondAttribute="bottom" constant="57" id="66J-or-hMc"/>
                             <constraint firstItem="RSs-55-GI7" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" id="7pD-66-aiS"/>
                             <constraint firstAttribute="bottom" secondItem="0Ke-Lq-pZ2" secondAttribute="bottom" constant="261" id="8Sj-wd-Yuy"/>
                             <constraint firstItem="vGI-j6-3Ov" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" id="DKR-3L-R3T"/>
-                            <constraint firstItem="zUf-Ah-DRA" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" id="GCm-eW-3Ra"/>
-                            <constraint firstItem="RSs-55-GI7" firstAttribute="top" secondItem="vGI-j6-3Ov" secondAttribute="bottom" constant="62" id="JhP-y0-iPa"/>
-                            <constraint firstItem="zUf-Ah-DRA" firstAttribute="top" secondItem="RSs-55-GI7" secondAttribute="bottom" constant="72" id="R7E-fw-Ztm"/>
+                            <constraint firstItem="zUf-Ah-DRA" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" constant="1" id="GCm-eW-3Ra"/>
+                            <constraint firstItem="RSs-55-GI7" firstAttribute="top" secondItem="vGI-j6-3Ov" secondAttribute="bottom" constant="61" id="JhP-y0-iPa"/>
+                            <constraint firstItem="zUf-Ah-DRA" firstAttribute="top" secondItem="RSs-55-GI7" secondAttribute="bottom" constant="78" id="R7E-fw-Ztm"/>
                             <constraint firstItem="zXW-R7-H68" firstAttribute="top" secondItem="0Ke-Lq-pZ2" secondAttribute="bottom" constant="90" id="XSL-RV-QLd"/>
                             <constraint firstItem="bWE-NB-DX8" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" id="bvv-NI-l58"/>
                             <constraint firstItem="zXW-R7-H68" firstAttribute="centerX" secondItem="UEx-rV-r4h" secondAttribute="centerX" id="crc-qz-hxe"/>
@@ -154,12 +154,13 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="epC-mS-fdd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.1574159564" green="0.79106622410000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="667" id="Oo2-1n-ru0"/>
                                     <constraint firstAttribute="width" constant="375" id="aG6-E9-0BJ"/>
                                 </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -235,7 +236,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.1574159564" green="0.79106622410000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="uov-BB-30B" firstAttribute="top" secondItem="lZL-Mq-QIe" secondAttribute="bottom" id="F2W-cW-1PT"/>
                             <constraint firstItem="uov-BB-30B" firstAttribute="centerX" secondItem="vO0-05-bP4" secondAttribute="centerX" id="GjT-an-7yW"/>

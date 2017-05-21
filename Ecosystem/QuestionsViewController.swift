@@ -28,18 +28,21 @@ class QuestionsViewController: UIViewController {
         if button2.layer.borderWidth == 5 {
             if QuestionLabel.text == "What is the order of the flow of energy in an energy pyramid from bottom to top?" {
                 score = score + 1
+                print(score)
             }
             if button3.layer.borderWidth == 5 {
+                if QuestionLabel.text == "What is a carrying capacity?" {
+                    score = score + 1
+    
+                }
                 if QuestionLabel.text == "Which would be considered an adaptation?" {
                     score = score + 1
                 }
                 if QuestionLabel.text == "Why is biodiversity important?" {
                     score = score + 1
                 }
-                if QuestionLabel.text == "What is a carrying capacity?" {
-                    score = score + 1
-                }
             }
+            
             
         }
         
@@ -47,9 +50,11 @@ class QuestionsViewController: UIViewController {
         if button1.layer.borderWidth == 5 {
             if QuestionLabel.text == "What are the main types of symbiosis?" {
                 score = score + 1
+                print(score)
             }
             if QuestionLabel.text == "What would happen if the population of the tertiary consumer  went down?" {
                 score = score + 1
+                print(score)
             }
         }
         if clicks == 1 {
