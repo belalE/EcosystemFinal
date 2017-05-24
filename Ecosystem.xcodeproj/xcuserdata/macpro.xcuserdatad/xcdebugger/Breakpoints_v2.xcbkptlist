@@ -42,12 +42,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "517033409.165677"
+                  timestampString = "517320683.940408"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "28">
+                  offsetFromSymbolStart = "19">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -57,12 +57,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "517033409.167971"
+                  timestampString = "517320683.944044"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "32">
+                  offsetFromSymbolStart = "23">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -72,12 +72,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "517033409.169514"
+                  timestampString = "517320683.951227"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "288">
+                  offsetFromSymbolStart = "287">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -87,12 +87,12 @@
                   moduleName = "Ecosystem"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macpro/Documents/Xcode%20programs/Ecosystem/Ecosystem/QuestionsViewController.swift"
-                  timestampString = "517033409.171039"
+                  timestampString = "517320683.954583"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "224">
+                  offsetFromSymbolStart = "195">
                </Location>
             </Locations>
          </BreakpointContent>
